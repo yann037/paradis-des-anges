@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accès au Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f0f8ff;
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+        }
+        img {
+            width: 300px;
+            border: 5px solid #4682b4;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+        }
+        img:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <h1>Cliquez sur le Logo !</h1>
+    <a href="https://docs.google.com/spreadsheets/d/1iAqustPUtWo-9PL4Gq8vckQXPZFeVneMpDdAq9J_oYk/edit?usp=sharing" target="_blank">
+        <img src="https://i.postimg.cc/J0XVcdY7/PDA-App.png" 
+             alt="Logo PDA" 
+             title="Ouvrir le document">
+    </a>
+</body>
+</html>
