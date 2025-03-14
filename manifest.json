@@ -1,0 +1,36 @@
+{
+  "short_name": "ParadisDesAnges",
+  "name": "Paradis des Anges - Accès au Document",
+  "description": "Accédez à votre document Google Sheets en un clic.",
+  "icons": [
+    {
+      "src": "https://i.postimg.cc/br7MWS98/icon-192x192-png.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "https://i.postimg.cc/8CyT3wJS/icon-512x512-png.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#f0f8ff",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#4682b4",
+  "screenshots": [
+    {
+      "src": "https://via.placeholder.com/1280x800.png?text=Desktop+Screenshot",
+      "sizes": "1280x800",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "https://via.placeholder.com/750x1334.png?text=Mobile+Screenshot",
+      "sizes": "750x1334",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+  ]
+}
